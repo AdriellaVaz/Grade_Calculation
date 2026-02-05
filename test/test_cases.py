@@ -1,5 +1,5 @@
 import pytest
-from app import calculate_average, calculate_grade
+from src.app import calculate_average, calculate_grade
 
 
 def test_student_A_plus():
