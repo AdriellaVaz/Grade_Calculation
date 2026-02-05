@@ -3,7 +3,7 @@ from src.app import calculate_average, calculate_grade
 
 
 def test_student_A_plus():
-    marks = [90, 92, 94, 93]
+    marks = [95,90, 92, 94, 93]
     avg = calculate_average(marks)
     assert calculate_grade(avg) == "A+"
 
